@@ -1,0 +1,65 @@
+.containerPrincipal {
+    background-image: url(assets/bg.png);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+
+    width: 100%;
+}
+
+#containerPrincipalMargin {
+    display: flex;
+    margin-top: 50px;
+}
+
+#eonaldo {
+
+    margin-left: -100px;
+    width: 400px;
+    height: auto;
+
+}
+
+h1 {
+    color: #004E71;
+    font-size: 2.7rem;
+    font-weight: 500;
+}
+
+#paraPrincipal {
+    font-weight: lighter;
+    color: #6c98ad;
+    font-size: 1.35rem;
+    line-height: 27px;
+}
+
+#paraPrincipalSec {
+    font-size: 0.9em;
+    color: #6c98ad;
+    margin-top: 35px;
+}
+
+#paraPrincipalTer {
+    font-size: 0.85rem;
+    font-weight: 100;
+    margin-top: 35px;
+
+    font-style: italic;
+
+    color: #6c98ad;
+}
+
+.containerSec {
+    height: 260px;
+    background: #0077f9;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+#buttonStartCourseNow {
+    font-size: 1.3rem;
+    padding: 0 40px;
+    background: white;
+}
