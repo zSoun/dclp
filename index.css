@@ -110,7 +110,13 @@ h1 {
     margin-bottom: 0px;
 }
 
-.grid-container {
+.grid-container a{
+    text-decoration: none;
+    color: #4a7db4;
+}
+
+.grid {
+    
     margin-top: 20px;
     display: grid;
     grid-template-columns: repeat(5, 1fr);
@@ -138,15 +144,17 @@ h1 {
     padding: 2px 10px;
   }
 
-  .itemOther {
-    margin: auto;
-    margin-top: 10px;
+  #itemOther {
+    display: inline-block;
+
     width: 360px;
+    margin-top: 10px;
+    
+    padding: 13px 0;
+    text-align: center;
 
     background-color: #fff;
     color: #4a7db4;
     border: 1px solid #4a7db4;
-
-    padding: 13px 0;
-    text-align: center;
   }
+
