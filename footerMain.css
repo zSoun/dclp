@@ -1,0 +1,97 @@
+.footerMain {
+    color: #fff;
+    display: flex;
+
+    background-color: #0077f9;
+    height: 400px;
+
+    margin-top: 50px;
+    
+}
+
+.teste {
+    display: flex;
+    margin: 100px 0;
+
+    justify-content: space-between;
+}
+.footerLeft {
+    display: flex;
+    flex-direction: column;
+
+    margin-left: 40vh;
+}
+
+#divisoriaFooter {
+    border-right: 1px solid #fff;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 0; /* Definir a margem superior como zero para substituir a herança */
+}
+
+
+#questionsLP {
+    font-size: 2.5rem;
+    font-weight: 600;
+
+    width: 350px;
+}
+
+.footerRight {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+#footerClick a {
+    font-size: 1.3rem;
+    font-weight: 600;
+
+    text-decoration: none;
+    color: #fff;
+    text-align: center;
+}
+
+
+ /* main end --------------------------------------- */
+ /* sec start -------------------------------------- */
+
+.footerSec {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    
+    background: #094f71;
+    height: 90px;
+}
+
+.logoFooter {
+    display: flex;
+    align-items: center;
+}
+
+#logoUnbounceFooter {
+    width: 25px;
+    height: 25px;
+}
+
+#textLogoFooter {
+    text-decoration: none;
+    font-size: 1.25rem;
+    margin: 0 20px 0 5px;
+    align-self: flex-start;
+    color: white;
+}
+
+.footerSec span {
+    color: #fff;
+    font-size: 0.5rem;
+    margin-top: -15px;
+    margin-bottom: 25px;
+}
+
+.teste2 {
+
+}

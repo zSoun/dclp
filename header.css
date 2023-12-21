@@ -1,3 +1,5 @@
+
+ /* HEADER START */
 .header {
     color: white;
     background-color: #004E71;
@@ -7,12 +9,17 @@
     align-items: center;
 
     padding: 0 5vh;
-    height: 70px;
+    height: 65px;
 }
+
+.header .headerPos {
+    display: flex;
+    align-items: center;
+}
+
 .logo {
     display: flex;
     align-items: center;
-
 }
 
 #logoUnbounce {
@@ -23,23 +30,32 @@
 #textLogo {
     text-decoration: none;
     font-size: 1.7rem;
-    margin: 0 40px 0 5px;
+    margin: 0 20px 0 5px;
     align-self: flex-start;
     color: white;
 }
+
+#headerSubTitle {
+    font-weight: 100;
+}
+
 #previewLP {
     color: white;
     background-color: #E87C25;
     border: solid 1px white;
-    border-radius: 5px;
+    border-radius: 2px;
     align-self: center;
 
     white-space: normal;
-    padding: 10px;
+    padding: 5px;
 
-    width: 230px ;
-    height: 50px;
+    width: 200px ;
+    height: 40px;
     line-height: 1.2;
     text-align: center;
+    font-size: 0.8rem;
+    font-weight: 100;
     margin-right: 30px;
 }
+
+ /* HEADER END  */
